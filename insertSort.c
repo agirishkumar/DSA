@@ -19,7 +19,14 @@ for(i=1;i<n;i++)
 void printArray(int arr[],int n)
 {
 	int i;
+	printf("Increasing order:");
 	for(i=0;i<n;i++)
+	{
+		printf("%d",arr[i]);
+	}
+	printf("\n");
+	printf("Decreasing order:");
+	for(i=n-1;i>=0;i--)
 	{
 		printf("%d",arr[i]);
 	}
